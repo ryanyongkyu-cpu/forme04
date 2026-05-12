@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Men's Collection — MAISON LUMIÈRE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="announcement-bar">
+    Complimentary Shipping &amp; Returns On All Orders &nbsp;&nbsp;·&nbsp;&nbsp; Summer 2026 Collection Now Available
+  </div>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="nav-links-left">
+        <a href="category.html" class="nav-link">Women</a>
+        <a href="men.html" class="nav-link active">Men</a>
+        <a href="accessories.html" class="nav-link">Accessories</a>
+        <a href="category.html" class="nav-link">New Arrivals</a>
+      </div>
+      <div class="nav-logo">
+        <a href="index.html">MAISON LUMIÈRE</a>
+      </div>
+      <div class="nav-links-right">
+        <button class="nav-icon-btn" aria-label="Search">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+        </button>
+        <button class="nav-icon-btn" aria-label="Account">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
+          </svg>
+        </button>
+        <button class="nav-icon-btn" aria-label="Wishlist">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+          </svg>
+        </button>
+        <button class="nav-icon-btn" aria-label="Shopping Bag">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <img
+      src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1920&q=80"
+      alt="Men's Collection"
+      loading="eager"
+      style="object-position: center 20%;"
+    >
+    <div class="page-hero-overlay">
+      <h1 class="page-hero-title">Men</h1>
+      <p class="page-hero-subtitle">Summer Collection 2026</p>
+    </div>
+  </section>
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb">
+    <a href="index.html">Home</a>
+    <span>›</span>
+    Men
+  </div>
+
+  <!-- Filter Bar -->
+  <div class="filter-bar">
+    <div class="filter-left">
+      <span class="filter-label">Filter:</span>
+      <button class="filter-btn active">All</button>
+      <button class="filter-btn">Suits</button>
+      <button class="filter-btn">Outerwear</button>
+      <button class="filter-btn">Shirts</button>
+      <button class="filter-btn">Trousers</button>
+    </div>
+    <div style="display:flex; align-items:center; gap: 24px;">
+      <span class="products-count">9 Pieces</span>
+      <select class="sort-select">
+        <option>Sort: Featured</option>
+        <option>Price: Low to High</option>
+        <option>Price: High to Low</option>
+        <option>Newest First</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Products -->
+  <div class="category-section">
+    <div class="products-grid products-grid-3">
+
+      <a href="product.html" class="product-card">
+        <div class="product-card-image">
+          <span class="product-card-badge new">New</span>
+          <img src="https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?auto=format&fit=crop&w=600&q=80" alt="Double Breasted Suit" loading="lazy">
+          <div class="product-card-overlay">
+            <button class="btn btn-dark" onclick="addToBag(event)">Add to Bag</button>
+          </div>
+        </div>
+        <p class="product-category">Suits</p>
+        <h3 class="product-name">Double Breasted Suit</h3>
+        <p class="product-price">$5,600</p>
+      </a>
+
+      <a href="product.html" class="product-card">
+        <div class="product-card-image">
+          <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=600&q=80" alt="Slim Fit Tuxedo" loading="lazy">
+          <div class="product-card-overlay">
+            <button class="btn btn-dark" onclick="addToBag(event)">Add to Bag</button>
+          </div>
+        </div>
+        <p class="product-category">Suits</p>
+        <h3 class="product-name">Slim Fit Tuxedo</h3>
+        <p class="product-price">$6,200</p>
+      </a>
+
+      <a href="product.html" class="product-card">
+        <div class="product-card-image">
+          <span class="product-card-badge">Limited</span>
+          <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=600&q=80" alt="Cashmere Overcoat" loading="lazy">
+          <div class="product-card-overlay">
+            <button class="btn btn-dark" onclick="addToBag(event)">Add to Bag</button>
+          </div>
+        </div>
+        <p class="product-category">Outerwear</p>
+        <h3 class="product-name">Cashmere Overcoat</h3>
+        <p class="product-price">$7,800</p>
+      </a>
+
+      <a href="product.html" class="product-card">
+        <div class="product-card-image">
+          <span class="product-card-badge new">New</span>
+          <img src="https://images.unsplash.com/photo-1545052664-1b3c8e37f3a6?auto=format&fit=crop&w=600&q=80" alt="Silk Dress Shirt" loading="lazy">
+          <div class="product-card-overlay">
+            <button class="btn btn-dark" onclick="addToBag(event)">Add to Bag</button>
+          </div>
+        </div>
+        <p class="product-category">Shirts</p>
+        <h3 class="product-name">Silk Dress Shirt</h3>
+        <p class="product-price">$980</p>
+      </a>
+
+      <a href="product.html" class="product-card">
+        <div class="product-card-image">
+          <img src="https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?auto=format&fit=crop&w=600&q=80" alt="Wool Flannel Trousers" loading="lazy">
+          <div class="product-card-overlay">
+            <button class="btn btn-dark" onclick="addToBag(event)">Add to Bag</button>
+          </div>
+        </div>
+        <p class="product-category">Trousers</p>
+        <h3 class="product-name">Wool Flannel Trousers</h3>
+        <p class="product-price">$1,400</p>
+      </a>
+
+      <a href="product.html" class="product-card">
+        <div class="product-card-image">
+          <img src="https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?auto=format&fit=crop&w=600&q=80" alt="Merino Turtleneck" loading="lazy">
+          <div class="product-card-overlay">
+            <button class="btn btn-dark" onclick="addToBag(event)">Add to Bag</button>
+          </div>
+        </div>
+        <p class="product-category">Shirts</p>
+        <h3 class="product-name">Merino Turtleneck</h3>
+        <p class="product-price">$1,150</p>
+      </a>
+
+      <a href="product.html" class="product-card">
+        <div class="product-card-image">
+          <span class="product-card-badge">Exclusive</span>
+          <img src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&w=600&q=80" alt="Leather Biker Jacket" loading="lazy">
+          <div class="product-card-overlay">
+            <button class="btn btn-dark" onclick="addToBag(event)">Add to Bag</button>
+          </div>
+        </div>
+        <p class="product-category">Outerwear</p>
+        <h3 class="product-name">Leather Biker Jacket</h3>
+        <p class="product-price">$8,500</p>
+      </a>
+
+      <a href="product.html" class="product-card">
+        <div class="product-card-image">
+          <img src="https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&q=80" alt="Linen Summer Suit" loading="lazy">
+          <div class="product-card-overlay">
+            <button class="btn btn-dark" onclick="addToBag(event)">Add to Bag</button>
+          </div>
+        </div>
+        <p class="product-category">Suits</p>
+        <h3 class="product-name">Linen Summer Suit</h3>
+        <p class="product-price">$4,200</p>
+      </a>
+
+      <a href="product.html" class="product-card">
+        <div class="product-card-image">
+          <span class="product-card-badge new">New</span>
+          <img src="https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?auto=format&fit=crop&w=600&q=80" alt="Technical Field Jacket" loading="lazy">
+          <div class="product-card-overlay">
+            <button class="btn btn-dark" onclick="addToBag(event)">Add to Bag</button>
+          </div>
+        </div>
+        <p class="product-category">Outerwear</p>
+        <h3 class="product-name">Technical Field Jacket</h3>
+        <p class="product-price">$3,600</p>
+      </a>
+
+    </div>
+
+    <div class="load-more-wrap">
+      <button class="btn btn-outline-dark" onclick="this.textContent='Loading…'; setTimeout(()=>this.textContent='No More Items', 800);">
+        Load More
+      </button>
+    </div>
+  </div>
+
+  <!-- Newsletter -->
+  <div class="newsletter">
+    <h2 class="newsletter-title">The World of Lumière</h2>
+    <p class="newsletter-subtitle">Subscribe for exclusive access to new collections and private events</p>
+    <form class="newsletter-form" onsubmit="showToast('Thank you for subscribing'); return false;">
+      <input type="email" placeholder="Your Email Address">
+      <button type="submit">Subscribe</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand-logo">MAISON LUMIÈRE</div>
+        <p class="footer-brand-text">A House of timeless elegance and unrivalled craftsmanship. Maison Lumière has been at the forefront of luxury fashion since 1921.</p>
+      </div>
+      <div>
+        <h4 class="footer-col-title">Collections</h4>
+        <ul class="footer-links">
+          <li><a href="category.html">Women</a></li>
+          <li><a href="men.html">Men</a></li>
+          <li><a href="accessories.html">Accessories</a></li>
+          <li><a href="#">Beauty</a></li>
+          <li><a href="category.html">New Arrivals</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer-col-title">Services</h4>
+        <ul class="footer-links">
+          <li><a href="#">Personal Shopping</a></li>
+          <li><a href="#">Bespoke Orders</a></li>
+          <li><a href="#">Gift Wrapping</a></li>
+          <li><a href="#">Alterations</a></li>
+          <li><a href="#">Repairs</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer-col-title">Maison</h4>
+        <ul class="footer-links">
+          <li><a href="#">Our Story</a></li>
+          <li><a href="#">Sustainability</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Boutiques</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2026 Maison Lumière. All Rights Reserved.</p>
+      <div class="footer-social">
+        <a href="#">Instagram</a>
+        <a href="#">Pinterest</a>
+        <a href="#">YouTube</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast">Item Added to Bag</div>
+  <script src="js/main.js"></script>
+</body>
+</html>
