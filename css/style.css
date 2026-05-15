@@ -93,12 +93,14 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .nav-logo { text-align: center; }
 
 .nav-logo a {
-  font-family: var(--font-serif);
-  font-size: 26px;
-  font-weight: 400;
-  letter-spacing: 10px;
-  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
   color: var(--dark);
+}
+
+.nav-logo a svg,
+.footer-brand-logo svg {
+  display: block;
 }
 
 .nav-icon-btn {
@@ -562,10 +564,6 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 
 .footer-brand-logo {
-  font-family: var(--font-serif);
-  font-size: 22px;
-  letter-spacing: 7px;
-  text-transform: uppercase;
   margin-bottom: 22px;
   color: var(--gold);
 }
